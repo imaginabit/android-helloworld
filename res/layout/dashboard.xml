@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.mopub.mobileads.MoPubView android:id="@+id/adViewDrash"
+                         android:layout_width="wrap_content"
+                         android:layout_height="100px"/>
+
+<me.koppi.mobile.HelloWorld.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button android:text="@string/btn_say_hello" android:id="@+id/button1" style="@style/DashboardButton" android:drawableTop="@drawable/home_btn_hello"/>
+    <Button android:text="Request source code.." android:id="@+id/button2" style="@style/DashboardButton" android:drawableTop="@drawable/home_btn_mail"/>
+    <Button android:text="Rate app.." android:id="@+id/button3" style="@style/DashboardButton" android:drawableTop="@drawable/home_btn_starred"/>
+    <Button android:text="Uninstall app.." android:id="@+id/button4" style="@style/DashboardButton" android:drawableTop="@drawable/home_btn_uninstall"/>
+    <Button android:text="Hello World Programs" android:id="@+id/button5" style="@style/DashboardButton" android:drawableTop="@drawable/home_btn_programs"/>
+    <Button android:text="Exit" android:id="@+id/button6" style="@style/DashboardButton" android:drawableTop="@drawable/home_btn_exit"/>
+    
+</me.koppi.mobile.HelloWorld.DashboardLayout>
+
+</LinearLayout>
